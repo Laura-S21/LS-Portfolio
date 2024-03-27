@@ -1,0 +1,26 @@
+{
+  "name": "site2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "dependencies": {
+    "sass": "^1.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sass css/main.scss css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laura-S21/LS-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laura-S21/LS-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Laura-S21/LS-Portfolio#readme"
+}
