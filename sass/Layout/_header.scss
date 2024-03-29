@@ -1,5 +1,31 @@
+@import "../Utils/variables";
+
 .header {
+
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     &__logo {
-        width: 50px;
+        width: 35px;
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__link {
+        list-style: none;
+        font-family: $font-text;
+        font-size: 17px;
+        color: $color-primary;
     }
 }
