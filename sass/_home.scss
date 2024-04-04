@@ -1,0 +1,92 @@
+.intro {
+   background-color: $color-primary;
+   color: white;
+   position: relative;
+   height: 500px;
+   width: 100vw;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+
+   &__name {
+    position: absolute;
+    left: 4%;
+    top: 18%;
+    font-size: 30px;
+   }
+
+   &__title {
+    position: absolute;
+    left: 4%;
+    top: 27%;
+   }
+
+   &__text {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 4%;
+    bottom: 4%;
+   }
+
+   &__illu {
+    height: 480px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+   }
+}
+
+.skills {
+    position: relative;
+    height: 350px;
+    color: $color-primary;
+    background-color: white;
+    position: absolute;
+    top: 560px;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &__title {
+        width: 160px;
+        font-size: 30px;
+        margin: 0;
+        position: absolute;
+        left: 4%;
+        top: 40%;
+    }
+
+    &__web-title {
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        margin: 0;
+        font-size: 25px;
+    }
+
+    &__web-list {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        left: 35%;
+        top: 35%;
+        font-size: 20px;
+    }
+
+    &__graph-title {
+        position: absolute;
+        top: 20%;
+        left: 65%;
+        margin: 0;
+        font-size: 25px;
+    }
+    &__graph-list {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        left: 65%;
+        top: 35%;
+        font-size: 20px;
+    }
+}
