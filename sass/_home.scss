@@ -1,12 +1,12 @@
 .intro {
+
    background-color: $color-primary;
-   color: white;
    position: relative;
-   height: 500px;
-   width: 100vw;
-   position: absolute;
-   left: 50%;
-   transform: translateX(-50%);
+
+   &__wrapper {
+    color: white;
+    height: 500px;
+   }
 
    &__name {
     position: absolute;

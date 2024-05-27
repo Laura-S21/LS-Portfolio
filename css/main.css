@@ -1,4 +1,7 @@
 .header {
+  background-color: white;
+}
+.header__wrapper {
   margin-left: 2%;
   margin-right: 2%;
   height: 60px;
@@ -13,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   margin: 0;
   padding: 0;
 }
@@ -26,7 +29,6 @@
 
 body {
   margin: auto;
-  max-width: 1440px;
   position: relative;
 }
 
@@ -42,15 +44,17 @@ li {
   list-style: none;
 }
 
+.width-limit {
+  max-width: 1440px;
+}
+
 .intro {
   background-color: #0f1329;
-  color: white;
   position: relative;
+}
+.intro__wrapper {
+  color: white;
   height: 500px;
-  width: 100vw;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 .intro__name {
   position: absolute;

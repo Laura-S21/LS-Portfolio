@@ -1,6 +1,5 @@
 body {
     margin: auto;
-    max-width: 1440px;
     position: relative;
 }
  p, li, h3 {
@@ -13,4 +12,8 @@ body {
 
  li {
     list-style: none;
+ }
+
+ .width-limit {
+   max-width: 1440px;
  }
